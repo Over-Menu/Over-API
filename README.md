@@ -179,9 +179,7 @@ bool DoesEntityExist(int entity)
 ```
 #### Example:
 ```lua
-EntityTable {}
-EntityTable["EntityID"] = 1234
-DoesEntityExist(EntityTable["EntityID"])
+DoesEntityExist(GetPlayerPedId())
 ```
 
 ### GetEntityCoords:
@@ -191,9 +189,7 @@ int GetEntityCoords(int entity, bool alive, string xyz)
 ```
 #### Example:
 ```lua
-EntityTable {}
-EntityTable["EntityID"] = 1234
-GetEntityCoords(EntityTable["EntityID"], true, "x")
+GetEntityCoords(GetPlayerPedId(), true, "x")
 ```
 
 ### GetEntityHeading:
