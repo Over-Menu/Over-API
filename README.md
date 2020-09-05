@@ -212,6 +212,16 @@ int GetEntityHeading(int entity)
 GetEntityHeading(GetPlayerPedId())
 ```
 
+### AttachEntityToEntity:
+#### Arguments:
+```cpp
+void AttachEntityToEntity(Entity entity1, Entity entity2, int boneIndex, float xPos, float yPos, float zPos, float xRot, float yRot, float zRot, bool p9, bool useSoftPinning, bool collision, bool isPed, int vertexIndex, bool fixedRot)
+```
+#### Example:
+```lua
+AttachEntityToEntity(Object1, Object2, 0, x, y, z, Rotx, Roty, Rotz, false, true, false, false, 2, true)
+```
+
 ## Gameplay
 ### GetHashKey:
 #### Arguments:
