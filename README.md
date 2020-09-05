@@ -36,6 +36,7 @@ Here a Functions list with examples:
 * [Vehicle](#Vehicle)
 * [Gameplay](#Gameplay)
 * [Entity](#Entity)
+* [Object](#Object)
 * [Streaming](#Streaming)
 * [Stats](#Stats)
 * [API](#API)
@@ -222,6 +223,7 @@ void AttachEntityToEntity(Entity entity1, Entity entity2, int boneIndex, float x
 AttachEntityToEntity(Object1, Object2, 0, x, y, z, Rotx, Roty, Rotz, false, true, false, false, 2, true)
 ```
 
+## Object
 ### CreateObject:
 #### Arguments:
 ```cpp
