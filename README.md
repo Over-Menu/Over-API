@@ -222,6 +222,16 @@ void AttachEntityToEntity(Entity entity1, Entity entity2, int boneIndex, float x
 AttachEntityToEntity(Object1, Object2, 0, x, y, z, Rotx, Roty, Rotz, false, true, false, false, 2, true)
 ```
 
+### CreateObject:
+#### Arguments:
+```cpp
+void CreateObject(int modelHash, float x, float y, float z, bool isNetwork, bool thisScriptCheck, bool dynamic)
+```
+#### Example:
+```lua
+CreateObject(GetHashKey("p_spinning_anus_s"), x, y, z, true, false, true)
+```
+
 ## Gameplay
 ### GetHashKey:
 #### Arguments:
