@@ -192,6 +192,16 @@ int GetEntityCoords(int entity, bool alive, string xyz)
 GetEntityCoords(GetPlayerPedId(), true, "x")
 ```
 
+### SetEntityCoords:
+#### Arguments:
+```cpp
+void SetEntityCoords(int entity, float xPos, float yPos, float zPos, DWORD xAxis, DWORD yAxis, DWORD zAxis, bool clearArea)
+```
+#### Example:
+```lua
+SetEntityCoords(GetPlayerPedId(), x, y, z, true, false, false, true)
+```
+
 ### GetEntityHeading:
 #### Arguments:
 ```cpp
